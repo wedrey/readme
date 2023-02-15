@@ -7,7 +7,7 @@ This repository originates from the discipline PCA/2022 of the UnB PPGI. Parser,
  - Very Busy Expressions Analysis
  - Live Variables Analysis
 
-## What is Data Flow Analysis?
+### What is Data Flow Analysis?
 
 *"In Data Flow Analysis it is customary to think of a program as a graph: the nodes are the elementary blocks and the edges describe how control can pass from one elementary block to another."*[1] 
 
@@ -49,8 +49,8 @@ Reduces code size. The objective is to calculate the expressions that are very b
 *"A variable is live at the exit from a labei if there exists a path from the label to a use of the variable that does not re-define the variable."* [1]
 
 Assign records efficiently. A variable is Live if there is a path to its name that does not reset it.
-## OCaml 
 
+## OCaml 
 
 OCaml (/oʊˈkæməl/ oh-KAM-əl, formerly Objective Caml) is a general-purpose, high-level multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features. OCaml was created in 1996 by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez, and others.
 
@@ -60,7 +60,7 @@ The acronym CAML originally stood for Categorical Abstract Machine Language, but
 ***Source: Wikipedia***
 
 
-## Code example with OCalm
+### Code example with OCalm
 
 Here is a simple OCaml code example that defines a function to calculate the factorial of a number:
 
